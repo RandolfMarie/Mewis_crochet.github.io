@@ -308,7 +308,7 @@ p{
       margin: 10px auto;
     }
   }
-  @media only screen and (max-width: 360px) {
+  @media only screen and (min-width: 360px) and (max-width: 601px) {
     .navbar {
         padding: 10px;
     }
